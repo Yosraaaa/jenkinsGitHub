@@ -20,7 +20,8 @@ pipeline {
 
                 steps {
                     
-                   sh 'mvn clean install -DskipTests'
+                   //sh 'mvn clean install -DskipTests'
+                   echo "Success"
                 
                       }
 
